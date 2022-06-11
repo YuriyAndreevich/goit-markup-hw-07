@@ -27,11 +27,12 @@
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.clients__link:hover,
-.clients__link:focus {
-  fill: var(--accent-color);
-  border: 1px solid var(--accent-color);
+
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+    border: 1px solid var(--accent-color);
+  }
 }
 .clients__logo {
   background-size: contain;

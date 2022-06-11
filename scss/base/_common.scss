@@ -28,10 +28,20 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.list-nav .link:hover,
-.list-nav .link:focus,
-.list-contacts .link:hover,
-.list-contacts .link:focus {
-  color: var(--accent-color);
-  fill: currentColor;
+.list-nav .link,
+.list-nav .link {
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+    fill: currentColor;
+  }
+}
+
+.list-contacts .link,
+.list-contacts .link {
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+    fill: currentColor;
+  }
 }
