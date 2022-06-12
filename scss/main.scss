@@ -3,9 +3,12 @@
 @import "./utils/variables";
 
 //base styles
-@import "./base/reset";
-@import "./base/container";
 @import "./base/common";
+@import "./base/container";
+@import "./base/reset";
+
+//compponents
+@import "./components/modal";
 
 //layout
 @import "./layouts/activity";
@@ -17,6 +20,3 @@
 @import "./layouts/logo";
 @import "./layouts/portfolio";
 @import "./layouts/team";
-
-//compponents
-@import "./components/modal";
